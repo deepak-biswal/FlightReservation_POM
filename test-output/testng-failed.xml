@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.ExcuteTest">
+        <methods>
+          <include name="verifyLinks"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="getTestMethodName"/>
+          <include name="reserveAFlight"/>
+          <include name="closeDriver"/>
+          <include name="verifyWebTable"/>
+          <include name="bookATicket"/>
+          <include name="getTestStatus"/>
+          <include name="launchFlightReservationApplication"/>
+        </methods>
+      </class> <!-- testcases.ExcuteTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

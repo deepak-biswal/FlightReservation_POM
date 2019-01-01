@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21418" started-at="2019-01-01T05:14:24Z" finished-at="2019-01-01T05:14:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21418" started-at="2019-01-01T05:14:24Z" finished-at="2019-01-01T05:14:45Z">
+      <class name="testcases.ExcuteTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="setUp" is-config="true" duration-ms="4365" started-at="2019-01-01T05:14:24Z" finished-at="2019-01-01T05:14:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestMethodName" is-config="true" duration-ms="5" started-at="2019-01-01T05:14:28Z" finished-at="2019-01-01T05:14:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void testcases.ExcuteTest.launchFlightReservationApplication() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="launchFlightReservationApplication()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="launchFlightReservationApplication" duration-ms="3210" started-at="2019-01-01T05:14:28Z" finished-at="2019-01-01T05:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFlightReservationApplication -->
+        <test-method status="PASS" signature="getTestStatus(org.testng.ITestResult)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestStatus" is-config="true" duration-ms="418" started-at="2019-01-01T05:14:32Z" finished-at="2019-01-01T05:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchFlightReservationApplication status=SUCCESS method=ExcuteTest.launchFlightReservationApplication()[pri:0, instance:testcases.ExcuteTest@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestStatus -->
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-01T05:14:32Z" finished-at="2019-01-01T05:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void testcases.ExcuteTest.verifyLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="verifyLinks()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="verifyLinks" duration-ms="164" started-at="2019-01-01T05:14:32Z" depends-on-methods="testcases.ExcuteTest.launchFlightReservationApplication" finished-at="2019-01-01T05:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinks -->
+        <test-method status="PASS" signature="getTestStatus(org.testng.ITestResult)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestStatus" is-config="true" duration-ms="251" started-at="2019-01-01T05:14:32Z" finished-at="2019-01-01T05:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLinks status=SUCCESS method=ExcuteTest.verifyLinks()[pri:0, instance:testcases.ExcuteTest@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestStatus -->
+        <test-method status="PASS" signature="verifyWebTable()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="verifyWebTable" duration-ms="1075" started-at="2019-01-01T05:14:32Z" depends-on-methods="testcases.ExcuteTest.verifyLinks" finished-at="2019-01-01T05:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebTable -->
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-01T05:14:32Z" finished-at="2019-01-01T05:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void testcases.ExcuteTest.verifyWebTable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="getTestStatus(org.testng.ITestResult)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestStatus" is-config="true" duration-ms="324" started-at="2019-01-01T05:14:34Z" finished-at="2019-01-01T05:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWebTable status=SUCCESS method=ExcuteTest.verifyWebTable()[pri:0, instance:testcases.ExcuteTest@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestStatus -->
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-01T05:14:34Z" finished-at="2019-01-01T05:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void testcases.ExcuteTest.login() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="login" duration-ms="4733" started-at="2019-01-01T05:14:34Z" depends-on-methods="testcases.ExcuteTest.verifyWebTable" finished-at="2019-01-01T05:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getTestStatus(org.testng.ITestResult)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestStatus" is-config="true" duration-ms="296" started-at="2019-01-01T05:14:39Z" finished-at="2019-01-01T05:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ExcuteTest.login()[pri:0, instance:testcases.ExcuteTest@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestStatus -->
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-01T05:14:39Z" finished-at="2019-01-01T05:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExcuteTest.reserveAFlight() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="reserveAFlight()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="reserveAFlight" duration-ms="3007" started-at="2019-01-01T05:14:39Z" depends-on-methods="testcases.ExcuteTest.login" finished-at="2019-01-01T05:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reserveAFlight -->
+        <test-method status="PASS" signature="getTestStatus(org.testng.ITestResult)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestStatus" is-config="true" duration-ms="290" started-at="2019-01-01T05:14:42Z" finished-at="2019-01-01T05:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reserveAFlight status=SUCCESS method=ExcuteTest.reserveAFlight()[pri:0, instance:testcases.ExcuteTest@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestStatus -->
+        <test-method status="PASS" signature="bookATicket()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="bookATicket" duration-ms="1822" started-at="2019-01-01T05:14:42Z" depends-on-methods="testcases.ExcuteTest.reserveAFlight" finished-at="2019-01-01T05:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookATicket -->
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-01T05:14:42Z" finished-at="2019-01-01T05:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void testcases.ExcuteTest.bookATicket() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="getTestStatus(org.testng.ITestResult)[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="getTestStatus" is-config="true" duration-ms="297" started-at="2019-01-01T05:14:44Z" finished-at="2019-01-01T05:14:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookATicket status=SUCCESS method=ExcuteTest.bookATicket()[pri:0, instance:testcases.ExcuteTest@5a01ccaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestStatus -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.ExcuteTest@5a01ccaa]" name="closeDriver" is-config="true" duration-ms="1045" started-at="2019-01-01T05:14:44Z" finished-at="2019-01-01T05:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testcases.ExcuteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
